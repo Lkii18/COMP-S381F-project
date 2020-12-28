@@ -7,7 +7,7 @@ const session = require('cookie-session');
 const bodyParser = require('body-parser');
 const fs = require('fs');
 const app = express();
-const mongourl = 'mongodb+srv://lkii:peter188@cluster0.uepzz.mongodb.net/test1?retryWrites=true&w=majority';
+const mongourl = '';
 const dbName = 'test1';
 const SECRETKEY = 'ABC';
 
